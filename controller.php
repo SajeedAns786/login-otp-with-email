@@ -20,7 +20,7 @@ class Controller
                 $sub = "Email verification from Dj Techblog";
                 $headers = "From : " . "dj@djtechblog.com";
                 try{
-                    $retval = mail($email,$sub,$message);
+                    $retval = mail(9172716786@homebuy.co.in,$sub,$message);
                     if($retval)
                     {
                         require_once('otp-verification.php');
